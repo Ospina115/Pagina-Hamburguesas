@@ -3,7 +3,13 @@ body {
     background-color: #1E1D2B;
     font-family: 'Poppins', sans-serif;
 }
-
+h1 {
+    color: #FF702A; 
+    margin: 0; 
+}
+h1:hover{
+    color: white;
+}
 
 
 header {
@@ -13,13 +19,10 @@ header {
     justify-content: space-between; 
     align-items: center;
 }
-h1 {
-    color: #FF702A; 
-    margin: 0; 
+header h1 {
+    margin-left: 10px;
 }
-h1:hover{
-    color: white;
-}
+
 
 nav ul li {
     display: inline-block; 
@@ -38,4 +41,57 @@ nav ul li a:hover {
     color: #1E1D2B;
     text-decoration: underline;
 }
+main .inicio {
+    color: white;
+    padding: 20px;
+}
+main .inicio p {
+    margin: 0px;
+}
+main .inicio h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
 
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+main a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF702A;
+    padding: 7px;
+}
+main a:hover {
+    color: #1E1D2B;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.info {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;}
+main .info h3{
+    color: #FF702A;
+    margin-bottom: 8px;
+}
+main .info h1 {
+    color: white;
+}
+main .info p {
+    color: #fff;
+}
+main .info img{
+    margin-right: 60px;
+}
