@@ -15,7 +15,6 @@ h1:hover{
     color: white;
 }
 
-
 header {
     
     padding: 20px;
@@ -179,4 +178,97 @@ main .info img{
     padding-top: 80px;
     display: flex;
     justify-content: space-around;
+}
+.servicio h1{
+    color: #fff;
+    font-size: 50px;
+}
+.servicio h4 {
+    color: #FF702A;
+    margin: 10px;
+    font-size: 20px;
+}
+.cadauno h3{
+    color: #FF702A;
+}
+.cadauno p{
+    color: white;
+    text-align: center;
+}
+
+.leermas{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    box-shadow: 0 2px 4px #000000;
+}
+.textin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: rgb(325, 239, 232);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.textin h1 {
+    color: black;
+    margin-bottom: 30px;
+}
+.textin a:hover{
+    background-color: #1E1D2B;
+    color: rgb(325, 239, 232);
+    padding: 7px;
+
+}
+
+.tuneo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.tuneo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+.color3{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 740px) {
+    header h1 {
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    main .inicio {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    main .inicio h1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    nav ul li:last-child {
+        display: none;
+    }
+    .platos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .plato {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menucito img {
+        height: 100px;
+    }
 }
